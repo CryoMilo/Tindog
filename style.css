@@ -125,3 +125,18 @@ span {
 .card-body h3 {
   padding: 10px 0 30px;
 }
+
+@media (max-width: 1000px) {
+  .iphone6 {
+    padding-top: 3rem;
+    transform: rotate(0deg);
+    overflow: hidden;
+  }
+
+  h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 3rem;
+    line-height: 1;
+    font-weight: 700;
+  }
+}
